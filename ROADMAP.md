@@ -10,9 +10,9 @@ Haftada ~5–6 saatle toplam yaklaşık 3–4 ay. Aşamalar uzayabilir, sorun de
 - [x] **Görev:** 640×480 pencerede ok tuşlarıyla hareket eden kırmızı kare
 
 ## Aşama 1: Oyunu yapmak (2–3 hafta)
-- [ ] Metin dosyasından harita okuma (duvar, zemin, başlangıç, çıkış)
-- [ ] Izgara tabanlı oyuncu hareketi ve duvar çarpışması
-- [ ] Oyun mantığını çizimden ayırma
+- [x] Metin dosyasından harita okuma (duvar, zemin, başlangıç, çıkış)
+- [x] Izgara tabanlı oyuncu hareketi ve duvar çarpışması
+- [x] Oyun mantığını çizimden ayırma
 - [ ] Anahtar toplama ve kapı açma
 - [ ] Basit düşman ve can sistemi
 - [ ] Ekransız (headless) çalışma modu
