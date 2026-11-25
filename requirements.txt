@@ -1,0 +1,8 @@
+pygame>=2.5
+pytest>=8.0
+
+# Later stages (uncomment when needed):
+# gymnasium>=1.0
+# stable-baselines3>=2.3
+# numpy>=1.26
+# streamlit>=1.35
