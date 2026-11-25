@@ -11,9 +11,14 @@ class Game:
                 if char == "S":
                     self.player_row = row
                     self.player_col = col
-
+        self.has_key = False
     def is_wall(self, row, col):
-        return self.map[row][col] == "#"
+        char = self.map[row][col]
+        if char == "#":
+            return True
+        if char == "D" and not self.has_key:
+            return True
+        return False
 
     def move(self, d_row, d_col):
         new_row = self.player_row + d_row
@@ -21,3 +26,6 @@ class Game:
         if not self.is_wall(new_row, new_col):
             self.player_row = new_row
             self.player_col = new_col
+            if self.map[self.player_row][self.player_col] == "K":
+                self.has_key = True
+                

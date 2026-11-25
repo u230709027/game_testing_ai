@@ -13,7 +13,7 @@ Haftada ~5–6 saatle toplam yaklaşık 3–4 ay. Aşamalar uzayabilir, sorun de
 - [x] Metin dosyasından harita okuma (duvar, zemin, başlangıç, çıkış)
 - [x] Izgara tabanlı oyuncu hareketi ve duvar çarpışması
 - [x] Oyun mantığını çizimden ayırma
-- [ ] Anahtar toplama ve kapı açma
+- [x] Anahtar toplama ve kapı açma
 - [ ] Basit düşman ve can sistemi
 - [ ] Ekransız (headless) çalışma modu
 - [ ] İlk pytest testleri

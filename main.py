@@ -32,6 +32,10 @@ while running:
                 pygame.draw.rect(screen, (100, 100, 100), (col * TILE, row * TILE, TILE, TILE))
             if char == "E":
                 pygame.draw.rect(screen, (0, 200, 0), (col * TILE, row * TILE, TILE, TILE))
+            if char == "K" and not game.has_key:
+                pygame.draw.rect(screen, (255, 215, 0), (col * TILE, row * TILE, TILE, TILE))    
+            if char == "D" and not game.has_key:
+                pygame.draw.rect(screen, (139, 69, 19), (col * TILE, row * TILE, TILE, TILE))
     pygame.draw.rect(screen, (255, 0, 0), (game.player_col * TILE, game.player_row * TILE, TILE, TILE))
 
     pygame.display.flip()
