@@ -14,7 +14,7 @@ Haftada ~5–6 saatle toplam yaklaşık 3–4 ay. Aşamalar uzayabilir, sorun de
 - [x] Izgara tabanlı oyuncu hareketi ve duvar çarpışması
 - [x] Oyun mantığını çizimden ayırma
 - [x] Anahtar toplama ve kapı açma
-- [ ] Basit düşman ve can sistemi
+- [x] Basit düşman ve can sistemi
 - [ ] Ekransız (headless) çalışma modu
 - [ ] İlk pytest testleri
 

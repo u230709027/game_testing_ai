@@ -16,6 +16,7 @@ class Game:
                     self.enemy_col = col
         self.has_key = False
         self.enemy_dir = 1
+        self.health = 3
     def is_wall(self, row, col):
         char = self.map[row][col]
         if char == "#":
@@ -25,6 +26,8 @@ class Game:
         return False
 
     def move(self, d_row, d_col):
+        if self.health <= 0:
+            return
         new_row = self.player_row + d_row
         new_col = self.player_col + d_col
         if not self.is_wall(new_row, new_col):
@@ -33,6 +36,8 @@ class Game:
             if self.map[self.player_row][self.player_col] == "K":
                 self.has_key = True
         self.move_enemy()
+        if self.player_row == self.enemy_row and self.player_col == self.enemy_col:
+            self.health = self.health - 1
     def move_enemy(self):
         new_col = self.enemy_col + self.enemy_dir
         if self.is_wall(self.enemy_row, new_col):

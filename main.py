@@ -38,6 +38,7 @@ while running:
                 pygame.draw.rect(screen, (139, 69, 19), (col * TILE, row * TILE, TILE, TILE))
     pygame.draw.rect(screen, (255, 0, 0), (game.player_col * TILE, game.player_row * TILE, TILE, TILE))
     pygame.draw.rect(screen, (160, 0, 200), (game.enemy_col * TILE, game.enemy_row * TILE, TILE, TILE))
+    pygame.display.set_caption(f"Health:{game.health}")
     pygame.display.flip()
 
     clock.tick(60)
