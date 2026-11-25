@@ -3,11 +3,11 @@
 Haftada ~5–6 saatle toplam yaklaşık 3–4 ay. Aşamalar uzayabilir, sorun değil.
 
 ## Aşama 0: Hazırlık (~1 hafta)
-- [ ] Python 3.11+, VS Code ve Git kurulu
-- [ ] GitHub'da repo oluşturuldu ve ilk commit atıldı
-- [ ] Sanal ortam (venv) kuruldu, `pip install -r requirements.txt` çalıştı
-- [ ] Pygame oyun döngüsü anlaşıldı (girdi → güncelle → çiz)
-- [ ] **Görev:** 640×480 pencerede ok tuşlarıyla hareket eden kırmızı kare
+- [x] Python 3.11+, VS Code ve Git kurulu
+- [x] GitHub'da repo oluşturuldu ve ilk commit atıldı
+- [x] Sanal ortam (venv) kuruldu, `pip install -r requirements.txt` çalıştı
+- [x] Pygame oyun döngüsü anlaşıldı (girdi → güncelle → çiz)
+- [x] **Görev:** 640×480 pencerede ok tuşlarıyla hareket eden kırmızı kare
 
 ## Aşama 1: Oyunu yapmak (2–3 hafta)
 - [ ] Metin dosyasından harita okuma (duvar, zemin, başlangıç, çıkış)
